@@ -465,8 +465,7 @@ void fbClass::setFBdiff(int top, int left, int right, int bottom)
 	if(top > yRes) top = yRes;
 	topDiff = top;
 	if(left < 0) left = 0;
-	if(left > xRes) left = xR
-es;
+	if(left > xRes) left = xRes;
 	leftDiff = left;
 	if(right > 0) right = 0;
 	if(-right > xRes) right = -xRes;
@@ -476,4 +475,3 @@ es;
 	bottomDiff = bottom;
 }
 #endif
-
